@@ -23,7 +23,7 @@ function handleClick() {
         filteredData = filteredData.filter(row => row.datetime === date);
     };
 
-    buildTable(filtreredData);
+    buildTable(filteredData);
 }
 
 d3.selectAll("#filter-btn").on("click", handleClick);
